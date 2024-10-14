@@ -3,7 +3,6 @@
 
 This is the codebase to reproduce the result
 
----
 
 ### Install Dependecies
 `$ sh ./requirement.sh`
