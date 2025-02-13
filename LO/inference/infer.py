@@ -1,7 +1,7 @@
 import ollama
 import json, time, os, sys
  
-models = ["gemma2", "llama3", "mathstral"]
+models = ["gemma2", "llama3", "mathstral", "qwen2-math:7b", "phi3:14b"]
 
 filename = 'LinearOrderDec_50.json'
 if not os.path.exists('OP'):
