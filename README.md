@@ -29,6 +29,7 @@ This is the codebase to reproduce the result.
 
 
 ### Infer using prompt (GPT)
+
     - Fix values for shots and complexity, say $K$, $C$.
     - Prepare Three Datasets (LO, LO_BIN, DIV) using the `cook` method from `cook_data.py` of respective task directories. Keep the arguments `shot` and `complexity` in method `cook` as $K$ and $C$ for _all three tasks_.
     - Place the data files to the directory `GPT`.
