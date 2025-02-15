@@ -9,6 +9,6 @@ ollama pull mathstral
 ollama pull qwen2-math:7b
 ollama pull phi3:14b
 
-pip install ollama simpletransformers openai
+pip install ollama simpletransformers openai tenacity tqdm
 
 sudo apt-get install dvipng texlive-latex-extra texlive-fonts-recommended cm-super
