@@ -35,6 +35,7 @@ This is the codebase to reproduce the result.
 - Place the data files to the directory `GPT`.
 - Change line 23, 24 and 25 of `GPT.py` with your OpenAI API key, preferred `model_name` and $K$, $C$ respectively.
 - Execute `$ python3 GPT.py` from the directory `GPT`.
+- After successful execution two plots `ROW.pdf` and `COLUMN.pdf` wil be produced with self-explanatory labels on them.
 
 [^1]: M: Mandatory, C: Conditional.
 [^2]: Results and evaluated figures will be stored in directory  `OP` with self-explanatory names.
