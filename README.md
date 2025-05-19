@@ -39,7 +39,7 @@ This is the codebase to reproduce the result.
 
 
 ### Task Vectors
-To reproduce the tSNE plots, we suggest to clone the orginal (source-code)[https://github.com/roeehendel/icl_task_vectors] [^3]. And after a successful exceution of the orginal project:
+To reproduce the tSNE plots, we suggest to clone the orginal [source-code](https://github.com/roeehendel/icl_task_vectors) [^3]. And after a successful exceution of the orginal project:
 - Add the files `TaskVectors/divisibility.py` and `TaskVectors/linearorder.py` to `core/data/tasks/` of the cloned repo.
 - Replace the conent of file `core/data/task_helpers.py` with that of `TaskVectors/task_helpers.py`.
 - Store the data (For `LO` (also `LO_BIN`) and `DIV`) produced from first experiment in new directories `data/linearorder` and `data/divisibility` repectively.
