@@ -1,5 +1,5 @@
 
-# Inductive Complexity in Prompts: Assessing In-Context Learning for Partially Ordered Relations
+# Assessing the Limits of In-Context Learning Beyond Functions Using Partially Ordered Sets
 ## Anonymous 
 
 This is the codebase to reproduce the result.
@@ -37,5 +37,14 @@ This is the codebase to reproduce the result.
 - Execute `$ python3 GPT.py` from the directory `GPT`.
 - After successful execution two plots `ROW.pdf` and `COLUMN.pdf` wil be produced with self-explanatory labels on them.
 
+
+### Task Vectors
+To reproduce the tSNE plots, we suggest to clone the orginal (source-code)[https://github.com/roeehendel/icl_task_vectors] [^3]. And after a successful exceution of the orginal project:
+- Add the files `TaskVectors/divisibility.py` and `TaskVectors/linearorder.py` to `core/data/tasks/` of the cloned repo.
+- Replace the conent of file `core/data/task_helpers.py` with that of `TaskVectors/task_helpers.py`.
+- Store the data (For `LO` (also `LO_BIN`) and `DIV`) produced from first experiment in new directories `data/linearorder` and `data/divisibility` repectively.
+- run `run_script.sh experiments.task_vectors_robustness`.
+
 [^1]: M: Mandatory, C: Conditional.
 [^2]: Results and evaluated figures will be stored in directory  `OP` with self-explanatory names.
+[^3]: https://github.com/roeehendel/icl_task_vectors
