@@ -43,7 +43,7 @@ To reproduce the tSNE plots, we suggest to clone the orginal [source-code](https
 - Add the files `TaskVectors/divisibility.py` and `TaskVectors/linearorder.py` to `core/data/tasks/` of the cloned repo.
 - Replace the conent of file `core/data/task_helpers.py` and `core/experiments_config.py` with that of `TaskVectors/task_helpers.py` and `TaskVectors/experiments_config.py` respectively.
 - Store the data (For `LO` (also `LO_BIN`) and `DIV`) produced from first experiment in new directories `data/linearorder` and `data/divisibility` repectively.
-- run `run_script.sh experiments.task_vectors_robustness`.
+- Run `run_script.sh experiments.task_vectors_robustness`.
 
 [^1]: M: Mandatory, C: Conditional.
 [^2]: Results and evaluated figures will be stored in directory  `OP` with self-explanatory names.
