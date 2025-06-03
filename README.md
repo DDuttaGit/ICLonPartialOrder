@@ -1,5 +1,5 @@
 
-# Assessing the Limits of In-Context Learning Beyond Functions Using Partially Ordered Sets
+# Assessing the Limits of In-Context Learning beyond Functions using Partially Ordered Relation
 ## Anonymous 
 
 This is the codebase to reproduce the result.
